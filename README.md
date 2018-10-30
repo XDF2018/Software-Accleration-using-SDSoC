@@ -1,2 +1,2 @@
 # Software-Accleration-using-SDSoC
-Workshop for XDF 2018
+Ultra96 Workshop for XDF 2018
