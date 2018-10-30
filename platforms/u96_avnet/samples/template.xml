@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest:Manifest xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" 
+                   xmlns:manifest="http://www.xilinx.com/manifest">
+    <template location="mmult" name="Xilinx Matrix Multiply" 
+              description="Demonstrates the Hardware Acceleration for a 32x32 Matrix for SDSoC course work">
+        <supports>
+            <and>
+                <or>
+                    <os name="Standalone"/>
+                </or>
+            </and>
+        </supports>
+        <accelerator name="mmult_accel" location="mmult.cpp"/>
+    </template>
+</manifest:Manifest>
